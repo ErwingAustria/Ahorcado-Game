@@ -22,7 +22,7 @@ while intentos < 6:
                 palabra_oculta = palabra_oculta[:i] + letra + palabra_oculta[i+1:]
         print("¡Bien hecho! La palabra es:", palabra_oculta)
         if "_" not in palabra_oculta:
-            print("¡Felicidades, adivinaste la palabra!")
+            print("¡Felicidades, adivinaste la palabra! ¡Eres el mejor!")
             break
     else:
         intentos += 1

@@ -4,7 +4,7 @@ print("__________________________________")
 
 import random
 
-palabras = ['gato', 'perro', 'elefante', 'jirafa', 'rinoceronte', 'leon']
+palabras = ['gato', 'perro', 'caballo', 'jirafa', 'rinoceronte', 'leon']
 
 palabra_secreta = random.choice(palabras)
 palabra_oculta = "_" * len(palabra_secreta)

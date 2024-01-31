@@ -1,3 +1,5 @@
+print("¡Bienvenido al juego del ahorcado!")
+
 import random
 
 palabras = ['gato', 'perro', 'elefante', 'jirafa', 'rinoceronte', 'leon']
